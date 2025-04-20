@@ -1,0 +1,153 @@
+/* === Fonts === */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display&display=swap');
+
+/* === Base Styles === */
+body {
+    font-family: 'Playfair Display', serif;
+    background-color: #FCE4EC; /* Light Pink */
+    color: #333333; /* Dark Gray for text */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* === Header === */
+header {
+    background-color: #F06292; /* Primary Pink */
+    padding: 50px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: #FAFAFA;
+    margin: 0;
+}
+
+header p {
+    font-size: 16px;
+    color: #FFAB91; /* Pastel Peach */
+}
+
+/* === Headings === */
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: #F44336; /* Strawberry Red */
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 24px;
+    color: #F44336;
+    margin-top: 30px;
+}
+
+/* === Sections === */
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* === Text Elements === */
+p, li {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li::marker {
+    color: #A5D6A7; /* Mint Green */
+}
+
+/* === Accent Boxes === */
+.accent, .hobby {
+    background-color: #FAFAFA;
+    border-left: 5px solid #A5D6A7;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+/* === Images === */
+img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.bio img {
+    max-width: 200px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.image-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-row img {
+    flex: 1 1 250px;
+    max-width: 280px;
+    height: auto;
+}
+
+.caption {
+    font-size: 14px;
+    color: #666;
+    margin-top: 8px;
+    text-align: center;
+}
+
+/* === Footer === */
+footer {
+    background-color: #FFAB91; /* Pastel Peach */
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #FAFAFA;
+    margin-top: 40px;
+}
+
+/* === Links === */
+a {
+    color: #F06292;
+    text-decoration: none;
+}
+
+/* === Navigation Bar === */
+nav {
+    background-color: #F06292;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.navbar li a {
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+    color: #FAFAFA;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+    color: #FFAB91;
+}
