@@ -1,3 +1,8 @@
+/*
+Zachariah King
+bioSite_css
+*/
+
 /* === Fonts === */
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playfair+Display&display=swap');
 
@@ -81,19 +86,26 @@ img {
     max-width: 100%;
     border-radius: 8px;
     margin-top: 15px;
+    
 }
 
 .image-row {
     display: flex;
-    gap: 20px;
+    gap: 15px;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
 
 .image-row img {
-    flex: 1 1 250px;
-    max-width: 280px;
+    flex: 1 1 420px;
+    max-width: 440px;
+    height: auto;
+}
+
+.home-img {
+    max-width: 250px;
+    width: 100%;
     height: auto;
 }
 
